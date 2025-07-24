@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status_ready"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="#E3F2FD"
+        android:textColor="#1976D2" />
+
+    <TextView
+        android:id="@+id/device_count_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devices found: 0"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/scan_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/scan_devices"
+            android:layout_marginEnd="8dp"
+            android:background="#4CAF50"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/wifi_settings_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wifi_settings"
+            android:layout_marginStart="8dp"
+            android:background="#2196F3"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/device_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:background="#F5F5F5" />
+
+</LinearLayout>

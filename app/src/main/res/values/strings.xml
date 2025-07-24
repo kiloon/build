@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IoT WiFi Manager</string>
+    <string name="scan_devices">Scan for IoT Devices</string>
+    <string name="wifi_settings">WiFi Settings</string>
+    <string name="device_control">Device Control</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="send_command">Send Command</string>
+    <string name="refresh">Refresh</string>
+    <string name="scan_networks">Scan Networks</string>
+    <string name="status_ready">Ready to scan for IoT devices</string>
+    <string name="status_scanning">Scanning for devices...</string>
+    <string name="status_complete">Scan completed</string>
+    <string name="devices_found">Devices found: %d</string>
+    <string name="device_type_camera">Camera</string>
+    <string name="device_type_light">Light</string>
+    <string name="device_type_switch">Switch</string>
+    <string name="device_type_sensor">Sensor</string>
+    <string name="device_type_esp">ESP32/ESP8266</string>
+    <string name="device_type_arduino">Arduino</string>
+    <string name="device_type_pi">Raspberry Pi</string>
+    <string name="device_type_unknown">IoT Device</string>
+    <string name="signal_excellent">Excellent</string>
+    <string name="signal_good">Good</string>
+    <string name="signal_fair">Fair</string>
+    <string name="signal_poor">Poor</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="command_hint">Enter command (e.g., status, on, off)</string>
+    <string name="wifi_enabled">WiFi is enabled</string>
+    <string name="wifi_disabled">WiFi is disabled</string>
+    <string name="networks_found">Found %d networks</string>
+</resources>
